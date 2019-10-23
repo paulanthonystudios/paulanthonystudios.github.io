@@ -1513,6 +1513,15 @@ img {
 
 .hide {
   display: none; }
+
+/* disables image drag */
+.gallery-img{
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+   user-drag: none;
+}
 	
 /* The end */
 
